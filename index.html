@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Abhiram Datla – Aspiring Developer & Tech Enthusiast. Portfolio showcasing skills, projects, and education." />
+  <title>Abhiram Datla | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>AD<span class="logo-bracket">/&gt;</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="skills.html" class="nav-link">Skills</a></li>
+        <li><a href="education.html" class="nav-link">Education</a></li>
+        <li><a href="certificates.html" class="nav-link">Certificates</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="contact.html" class="nav-link contact-btn">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg-animation">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <canvas id="particle-canvas"></canvas>
+    </div>
+    <div class="hero-content">
+
+      <h1 class="hero-title fade-in-up" style="animation-delay:0.5s">
+        Hi, I am <span class="gradient-text">Abhiram Datla</span>
+      </h1>
+      <div class="hero-subtitle fade-in-up" style="animation-delay:0.8s">
+        <span class="static-text">Aspiring Developer</span>
+        <span class="separator"> | </span>
+        <span class="static-highlight">Tech Enthusiast</span>
+      </div>
+      <div class="hero-cta fade-in-up" style="animation-delay:1.2s">
+        <a href="projects.html" class="btn btn-primary">View My Work</a>
+        <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+      </div>
+
+      <!-- Quick-nav cards -->
+      <div class="home-nav-grid fade-in-up" style="animation-delay:1.6s">
+        <a href="about.html" class="home-nav-card"><i class="fas fa-user"></i><span>About</span></a>
+        <a href="skills.html" class="home-nav-card"><i class="fas fa-code"></i><span>Skills</span></a>
+        <a href="education.html" class="home-nav-card"><i class="fas fa-graduation-cap"></i><span>Education</span></a>
+        <a href="certificates.html" class="home-nav-card"><i
+            class="fas fa-certificate"></i><span>Certificates</span></a>
+        <a href="projects.html" class="home-nav-card"><i class="fas fa-rocket"></i><span>Projects</span></a>
+        <a href="contact.html" class="home-nav-card"><i class="fas fa-envelope"></i><span>Contact</span></a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-glow"></div>
+    <div class="container footer-inner">
+      <a href="index.html" class="footer-logo">
+        <span class="logo-bracket">&lt;</span>AD<span class="logo-bracket">/&gt;</span>
+      </a>
+      <p class="footer-text">© 2026 Abhiram Datla. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="mailto:abhiramdatla@gmail.com" aria-label="Email" class="social-icon"><i
+            class="fas fa-envelope"></i></a>
+        <a href="https://github.com/abhiramdsai-hue" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
+          class="social-icon"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="back-to-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Projects by Abhiram Datla – Complaint Management System, portfolio website and more." />
+  <title>Projects | Abhiram Datla</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>AD<span class="logo-bracket">/&gt;</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html"        class="nav-link">Home</a></li>
+        <li><a href="about.html"        class="nav-link">About</a></li>
+        <li><a href="skills.html"       class="nav-link">Skills</a></li>
+        <li><a href="education.html"    class="nav-link">Education</a></li>
+        <li><a href="certificates.html" class="nav-link">Certificates</a></li>
+        <li><a href="projects.html"     class="nav-link active">Projects</a></li>
+        <li><a href="contact.html"      class="nav-link contact-btn">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects" class="section projects page-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">What I've built</p>
+        <h1 class="section-title">My <span class="gradient-text">Projects</span></h1>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Personal Portfolio Website -->
+        <div class="project-card" data-aos="fade-up">
+          <div class="project-glow"></div>
+          <div class="project-header">
+            <div class="project-icon project-icon-portfolio">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="28" height="28">
+                <rect x="8" y="12" width="48" height="36" rx="4" fill="#3ECFFF" opacity="0.8"/>
+                <rect x="14" y="18" width="20" height="4" rx="2" fill="#fff"/>
+                <rect x="14" y="26" width="36" height="3" rx="1.5" fill="#fff" opacity="0.5"/>
+                <rect x="14" y="32" width="28" height="3" rx="1.5" fill="#fff" opacity="0.4"/>
+                <rect x="24" y="52" width="16" height="4" rx="2" fill="#8A64FF"/>
+                <rect x="18" y="56" width="28" height="3" rx="1.5" fill="#8A64FF" opacity="0.5"/>
+              </svg>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/abhiramdsai-hue/future_fs_01" target="_blank" rel="noopener noreferrer" class="project-link github-portfolio-link" id="github-portfolio" aria-label="GitHub Repository" data-tooltip="🔒 Private — FUTURE_FS_01"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Personal Portfolio Website</h3>
+          <p class="project-desc">A modern, responsive portfolio website built with HTML, CSS, and JavaScript. Features smooth animations, a clean dark-themed UI, and separate pages for showcasing skills, projects, education, and contact information — designed to leave a strong professional impression.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+
+        <!-- AI-Powered CMS -->
+        <div class="project-card" data-aos="fade-up" style="--delay: 0.1s;">
+          <div class="project-glow"></div>
+          <div class="project-header">
+            <div class="project-icon project-icon-cms">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="28" height="28">
+                <path d="M10 14C10 11.2386 12.2386 9 15 9H49C51.7614 9 54 11.2386 54 14V50C54 52.7614 51.7614 55 49 55H15C12.2386 55 10 52.7614 10 50V14Z" fill="#FF6FD8" opacity="0.8"/>
+                <rect x="18" y="20" width="28" height="4" rx="2" fill="#fff"/>
+                <rect x="18" y="28" width="20" height="4" rx="2" fill="#fff" opacity="0.6"/>
+                <path d="M20 44L26 50L38 38" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="project-links">
+              <a href="https://cms-omega-jet.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Complaint Management System</h3>
+          <p class="project-desc">A smart campus solution designed to report issues instantly and track resolution in real-time. Leverages AI for auto-categorization and priority detection, featuring anonymous submissions, institutional scalability, and detailed admin analytics dashboards.</p>
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">Next.js</span>
+            <span class="tag">AI/NLP</span>
+            <span class="tag">Tailwind CSS</span>
+            <span class="tag">Node.js</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Page navigation -->
+      <div class="page-nav-btns">
+        <a href="certificates.html" class="btn btn-outline"><i class="fas fa-arrow-left"></i> Certificates</a>
+        <a href="contact.html"      class="btn btn-primary">Contact <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-glow"></div>
+    <div class="container footer-inner">
+      <a href="index.html" class="footer-logo">
+        <span class="logo-bracket">&lt;</span>AD<span class="logo-bracket">/&gt;</span>
+      </a>
+      <p class="footer-text">© 2026 Abhiram Datla. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="mailto:abhiramdatla@gmail.com" aria-label="Email" class="social-icon"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/abhiramdsai-hue" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-icon"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
